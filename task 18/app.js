@@ -1,0 +1,6 @@
+var prom=prompt("enter your age")
+document.write("your age is "+prom+"</br>")
+var currentdate=new Date()
+var currentyear=currentdate.getFullYear()
+var birthyear=currentyear-parseInt(prom+"</br>")
+document.write("your birth year is "+birthyear)
